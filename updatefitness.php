@@ -1,0 +1,38 @@
+<?php
+include 'partials/header.php';
+require __DIR__ . '/fitness/fitness.php';
+
+if (!isset($_GET['id'])) {
+    include "partials1/not_found.php";
+    exit;
+}
+$userId = $_GET['id'];
+
+$user = getUserById($userId);
+if (!$user) {
+    include "partials1/not_found.php";
+    exit;
+}
+
+$errors = [
+    'name' => "",
+    'calo' => "",
+    'time' => "",
+     'type' => "",
+];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $user = array_merge($user, $_POST);
+
+    $isValid = validateUser($user, $errors);
+
+    if ($isValid) {
+        $user = updateUser($_POST, $userId);
+        uploadImage($_FILES['picture'], $user);
+        header("Location: tablefitness.php");
+    }
+}
+
+?>
+
+<?php include '_formfitness.php' ?>
