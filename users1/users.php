@@ -97,27 +97,11 @@ function validateUser($user, &$errors)
         $isValid = false;
         $errors['username'] = 'Username is required and it must be more than 6 and less then 16 character';
     }
- 
-   if (!filter_var($user['age'], FILTER_VALIDATE_INT)) {
+    if ($user['email'] && !filter_var($user['email'], FILTER_VALIDATE_EMAIL)) {
         $isValid = false;
-        $errors['age'] = 'Enter value is number';
+        $errors['email'] = 'This must be a valid email address';
     }
-       if (!filter_var($user['height'], FILTER_VALIDATE_INT)) {
-        $isValid = false;
-        $errors['height'] = 'Enter value is number';
-    }
-       if (!filter_var($user['weight'], FILTER_VALIDATE_INT)) {
-        $isValid = false;
-        $errors['weight'] = 'Enter value is number';
-    }
-       if (!$user['gender']) {
-        $isValid = false;
-        $errors['gender'] = 'Name is mandatory';
-    }
-       if (!$user['tdee']) {
-        $isValid = false;
-        $errors['tdee'] = 'Name is mandatory';
-    }
+
 
     // End Of validation
 

@@ -1,0 +1,535 @@
+<!doctype html>
+<html class="no-js" lang="vi">
+<head>
+<meta name="robots" content="noindex,follow">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Calo-Calc v1.1 | Công Cụ Tính Calo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="shortcut icon" href="img/favicon.ico">
+ <link rel="d" href="users/data.json">
+  <link rel="stylesheet" href="users/type.json">
+         <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<style type="text/css">
+    body { padding-top: 50px; }
+    .cursor-pointer { cursor:pointer; }
+    .m-b-1 { margin-bottom: 1em; }
+    .label { font-size: 0.8em; }
+</style>
+</head>
+<body>
+   
+   
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="./">Calo-Calc v1.1</a> </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+            	<li><a href="#nutri-calc">Tính Calo</a></li>
+                <li><a href="#nutri-table">Bảng Thành Phần Dinh Dưỡng</a></li>
+            </ul>
+        </div>
+        <!-- /navbar-collapse --> 
+    </div>
+</nav>
+
+<div class="container"> 
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="nutri-calc" class="page-header">
+                <h3>Tính Thành Phần Dinh Dưỡng</h3>
+            </div>
+            <div>
+                <form class="form-inline">
+                    <div id="food-input" class="form-group">
+                        <label>Tên Thực Phẩm</label>
+                        <input id="food-name" data-id="false" type="text" class="form-control" placeholder="Chọn bên dưới..." disabled>
+                    </div>
+                    <div id="weight-input" class="form-group">
+                        <label>Khối Lượng (g)</label>
+                        <input id="food-weight" type="number" class="form-control" placeholder="Nhập số..." value="100" step="100" required>
+                    </div>
+                    <button id="food-submit" type="button" class="btn btn-primary">Thêm Vào Danh Sách</button>
+                </form>
+                <hr>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Tên Thực Phẩm</th>
+                            <th>Khối Lượng (g)</th>
+                            <th>Năng Lượng (kcal)</th>
+                            <th class="hidden-xs">Nước (g)</th>
+                            <th class="hidden-xs">Đạm (g)</th>
+                            <th class="hidden-xs">Tinh Bột (g)</th>
+                            <th class="hidden-xs">Béo (g)</th>
+                            <th class="hidden-xs">Xơ (g)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nutri-table-select"></tbody>
+                    <tbody>
+                        <tr class="info">
+                            <th colspan="2">Tổng Cộng:</th>
+                            <td id="we-val">?</td>
+                            <td id="ca-val"><span class="text-danger">?</span></td>
+                            <td id="wa-val" class="hidden-xs">?</td>
+                            <td id="pro-val" class="hidden-xs">?</td>
+                            <td id="car-val" class="hidden-xs">?</td>
+                            <td id="fa-val" class="hidden-xs">?</td>
+                            <td id="df-val" class="hidden-xs">?</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <br>
+
+         
+            <div id="nutri-table" class="page-header">
+                <h3>Bảng Thành Phần Dinh Dưỡng bữa trua  <small>Đơn vị tính: 100 gam</small></h3>
+            </div>
+            <div id="filter-button-group" class="m-b-1">
+                <span class="label label-primary cursor-pointer" data-filter="all" onClick="foodFilter(this);">Tất Cả</span>
+            </div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tên Thực Phẩm</th>
+                        <th>Năng Lượng (kcal)</th>
+                        <th class="hidden-xs">Nước (g)</th>
+                        <th class="hidden-xs">Đạm (g)</th>
+                        <th class="hidden-xs">Tinh Bột (g)</th>
+                        <th class="hidden-xs">Béo (g)</th>
+                        <th class="hidden-xs">Xơ (g)</th>
+                    </tr>
+                </thead>
+                <tbody id="nutri-table-content"></tbody>
+            </table>
+           
+        </div>
+    </div>
+    <hr>
+    
+</div>
+<!--
+<div class="container1"> 
+    <div class="row1">
+        <div class="col-lg-12">
+            <div id="nutri-calc1" class="page-header">
+                <h3>Tính Thành Phần Dinh Dưỡng</h3>
+            </div>
+            <div>
+                <form class="form-inline1">
+                    <div id="food-input1" class="form-group">
+                        <label>Tên Thực Phẩm</label>
+                        <input id="food-name1" data-id="false" type="text" class="form-control" placeholder="Chọn bên dưới..." disabled>
+                    </div>
+                    <div id="weight-input1" class="form-group">
+                        <label>Khối Lượng (g)</label>
+                        <input id="food-weight1" type="number" class="form-control" placeholder="Nhập số..." value="100" step="100" required>
+                    </div>
+                    <button id="food-submit1" type="button" class="btn btn-primary">ADD</button>
+                </form>
+                <hr>
+                <table class="table table-striped1">
+                    <thead>
+                        <tr>
+                            <th>##</th>
+                            <th>Tên Thực Phẩm1</th>
+                            <th>Khối Lượng (g)1</th>
+                            <th>Năng Lượng (kcal1</th>
+                            <th class="hidden-xs1">Nước (g)1</th>
+                            <th class="hidden-xs1">Đạm (g)1</th>
+                            <th class="hidden-xs1">Tinh Bột (g)1</th>
+                            <th class="hidden-xs1">Béo (g)1</th>
+                            <th class="hidden-xs1">Xơ (g)1</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nutri-table-select1"></tbody>
+                    <tbody>
+                        <tr class="info1">
+                            <th colspan="2">Tổng Cộng:</th>
+                            <td id="we-val">?</td>
+                            <td id="ca-val"><span class="text-danger1">?</span></td>
+                            <td id="wa-val" class="hidden-xs1">?</td>
+                            <td id="pro-val" class="hidden-xs1">?</td>
+                            <td id="car-val" class="hidden-xs1">?</td>
+                            <td id="fa-val" class="hidden-xs1">?</td>
+                            <td id="df-val" class="hidden-xs1">?</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <br>
+
+         
+            <div id="nutri-table1" class="page-header">
+                <h3>Bảng Thành Phần Dinh Dưỡng bữa trưa  <small>Đơn vị tính: 100 gam</small></h3>
+            </div>
+            <div id="filter-button-group1" class="m-b-1">
+                <span class="label label-primary cursor-pointer" data-filter="all" onClick="foodFilter1(this);">Tất Cả</span>
+            </div>
+            <table class="table table-striped1">
+                <thead>
+                    <tr>
+                        <th>##</th>
+                        <th>Tên Thực Phẩm1</th>
+                        <th>Năng Lượng (kcal)1</th>
+                        <th class="hidden-xs1">Nước (g)1</th>
+                        <th class="hidden-xs1">Đạm (g)1</th>
+                        <th class="hidden-xs1">Tinh Bột (g)1</th>
+                        <th class="hidden-xs1">Béo (g)1</th>
+                        <th class="hidden-xs1">Xơ (g)1</th>
+                    </tr>
+                </thead>
+                <tbody id="nutri-table-content1"></tbody>
+            </table>
+      
+        </div>
+    </div>
+    <hr>
+    <footer>
+        
+    </footer>
+</div>
+
+-->
+<!-- /container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        // Vars
+        window.dataArray = [];
+        window.allFoods = "";
+        var indexFoodSelect = 1;
+        var allWeight = 0;
+        var allCalo = 0;
+        var allWater = 0;
+        var allProtein = 0;
+        var allCarb = 0;
+        var allFat = 0;
+        var allDf = 0;
+        
+        // Get foods
+        $.get('users/data.json', function(data) {
+            dataArray = data;
+            for (var i = 0; i < data.length; i++) {
+                var resultHTML = "";
+                resultHTML += "<tr>";
+                resultHTML += "<th>" + (i + 1) + "</th>";
+                resultHTML += "<td><span class=\"cursor-pointer btn-link\" data-id=" + i + " onClick=\"addToTextbox(this);\">" + data[i].name + "</span></td>";
+                resultHTML += "<td>" + data[i].calo + "</td>";
+                resultHTML += "<td class=\"hidden-xs\">" + data[i].water + "</td>";
+                resultHTML += "<td class=\"hidden-xs\">" + data[i].protein + "</td>";
+                resultHTML += "<td class=\"hidden-xs\">" + data[i].carb + "</td>";
+                resultHTML += "<td class=\"hidden-xs\">" + data[i].fat + "</td>";
+                resultHTML += "<td class=\"hidden-xs\">" + data[i].df + "</td>";
+                resultHTML += "</tr>";
+                $('#nutri-table-content').append(resultHTML);
+                allFoods += resultHTML;
+            }
+        });
+        
+        // Get types
+        $.get('users/type.json', function(data) {
+            for (var i = 0; i < data.length; i++) {
+                var resultHTML = "";
+                var labelClass = "";
+                var randomNumber = Math.floor((Math.random() * 5) + 1);
+                if (randomNumber == 1) {
+                    labelClass = "default";
+                } else if (randomNumber == 2) {
+                    labelClass = "success";
+                } else if (randomNumber == 3) {
+                    labelClass = "info";
+                } else if (randomNumber == 4) {
+                    labelClass = "warning";
+                } else {
+                    labelClass = "danger";
+                }
+                resultHTML += "<span class=\"label label-" + labelClass + " cursor-pointer\" data-filter=\"" + data[i].type + "\" onClick=\"foodFilter(this);\">" + data[i].type + "</span> ";
+                $('#filter-button-group').append(resultHTML);
+            }
+        });
+        
+        // All selected food to result table
+        $('#food-submit').click(function() {
+            var weight = $('#food-weight').val();
+            var indexInArray = $('#food-name').data('id');
+            if (indexInArray === false) {
+                $('#food-input').addClass('has-error');
+            } else if (weight == '' || weight <= 0 || weight == null) {
+                $('#weight-input').addClass('has-error');
+                $('#food-weight').focus();
+            } else {
+                $('#weight-input').removeClass('has-error');
+                $('#food-input').removeClass('has-error');
+                var resultFoodSelect = "";
+                allWeight += parseFloat(weight);
+            
+                var caloValue = parseFloat(dataArray[indexInArray].calo) / 100 * parseFloat(weight);
+                allCalo += caloValue;
+                var waterValue = parseFloat(dataArray[indexInArray].water) / 100 * parseFloat(weight);
+                allWater += waterValue;
+                var proteinValue = parseFloat(dataArray[indexInArray].protein) / 100 * parseFloat(weight);
+                allProtein += proteinValue;
+                var carbValue = parseFloat(dataArray[indexInArray].carb) / 100 * parseFloat(weight);
+                allCarb += carbValue;
+                var fatValue = parseFloat(dataArray[indexInArray].fat) / 100 * parseFloat(weight);
+                allFat += fatValue;
+                var dfValue = parseFloat(dataArray[indexInArray].df) / 100 * parseFloat(weight);
+                allDf += dfValue;
+
+                resultFoodSelect += "<tr>";
+                resultFoodSelect += "<th>" + indexFoodSelect + "</th>";
+                resultFoodSelect += "<td>" + dataArray[indexInArray].name + "</td>";
+                resultFoodSelect += "<td>" + parseFloat(weight).toFixed(1) + "</td>";
+                resultFoodSelect += "<td>" + caloValue.toFixed(1) + "</td>";
+                resultFoodSelect += "<td class=\"hidden-xs\">" + waterValue.toFixed(1) + "</td>";
+                resultFoodSelect += "<td class=\"hidden-xs\">" + proteinValue.toFixed(1) + "</td>";
+                resultFoodSelect += "<td class=\"hidden-xs\">" + carbValue.toFixed(1) + "</td>";
+                resultFoodSelect += "<td class=\"hidden-xs\">" + fatValue.toFixed(1) + "</td>";
+                resultFoodSelect += "<td class=\"hidden-xs\">" + dfValue.toFixed(1) + "</td>";
+                resultFoodSelect += "</tr>";
+                indexFoodSelect++;
+                $('#nutri-table-select').append(resultFoodSelect);
+                $('#we-val').html(parseFloat(allWeight).toFixed(1));
+                $('#ca-val').html("<span class=\"text-danger\">" + parseFloat(allCalo).toFixed(1) + "</span>");
+                $('#wa-val').html(parseFloat(allWater).toFixed(1));
+                $('#pro-val').html(parseFloat(allProtein).toFixed(1));
+                $('#car-val').html(parseFloat(allCarb).toFixed(1));
+                $('#fa-val').html(parseFloat(allFat).toFixed(1));
+                $('#df-val').html(parseFloat(allDf).toFixed(1));   
+            }
+        });
+    });
+    
+    // Add selected food to textbox
+    function addToTextbox(obj) {
+        $('#food-input').removeClass('has-error');
+        $('#food-name').val($(obj).html());
+        $('#food-name').data('id', $(obj).data('id'));
+        $('html, body').animate({scrollTop: 0}, 400);
+    }
+    
+    // Filter foods list
+    function foodFilter(obj) {
+        if ($(obj).data('filter') == 'all') {
+            $('#nutri-table-content').html(allFoods);
+        } else {
+            var type = $(obj).data('filter');
+            var resultHTML = "";
+            var filterIndex = 1;
+            for (var i = 0; i < dataArray.length; i++) {
+                if (dataArray[i].type == type) {
+                    resultHTML += "<tr>";
+                    resultHTML += "<th>" + filterIndex + "</th>";
+                    resultHTML += "<td><span class=\"cursor-pointer btn-link\" data-id=" + i + " onClick=\"addToTextbox(this);\">" + dataArray[i].name + "</span></td>";
+                    resultHTML += "<td>" + dataArray[i].calo + "</td>";
+                    resultHTML += "<td class=\"hidden-xs\">" + dataArray[i].water + "</td>";
+                    resultHTML += "<td class=\"hidden-xs\">" + dataArray[i].protein + "</td>";
+                    resultHTML += "<td class=\"hidden-xs\">" + dataArray[i].carb + "</td>";
+                    resultHTML += "<td class=\"hidden-xs\">" + dataArray[i].fat + "</td>";
+                    resultHTML += "<td class=\"hidden-xs\">" + dataArray[i].df + "</td>";
+                    resultHTML += "</tr>";
+                    filterIndex++;
+                }
+            }
+            $('#nutri-table-content').html(resultHTML);
+        }
+    }
+    
+    // Scroll to ID
+    $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                scrollTop: target.offset().top - 70
+                }, 700);
+                    return false;
+            }
+            }
+    });
+    });
+</script>
+
+
+
+<!--
+<script type="text/javascript">
+    $(document).ready(function() {
+        // Vars
+        window.dataArray1 = [];
+        window.allFoods1 = "";
+        var indexFoodSelect1 = 1;
+        var allWeight1 = 0;
+        var allCalo1 = 0;
+        var allWater1 = 0;
+        var allProtein1 = 0;
+        var allCarb1 = 0;
+        var allFat1 = 0;
+        var allDf1 = 0;
+        
+        // Get foods
+        $.get('data2/data.json', function(data1) {
+            dataArray1 = data1;
+            for (var i = 0; i < data1.length; i++) {
+                var resultHTML = "";
+                resultHTML += "<tr>";
+                resultHTML += "<th>" + (i + 1) + "</th>";
+                resultHTML += "<td><span class=\"cursor-pointer btn-link\" data-id=" + i + " onClick=\"addToTextbox1(this);\">" + data1[i].name + "</span></td>";
+                resultHTML += "<td>" + data1[i].calo + "</td>";
+                resultHTML += "<td class=\"hidden-xs1\">" + data1[i].water + "</td>";
+                resultHTML += "<td class=\"hidden-xs1\">" + data1[i].protein + "</td>";
+                resultHTML += "<td class=\"hidden-xs1\">" + data1[i].carb + "</td>";
+                resultHTML += "<td class=\"hidden-xs1\">" + data1[i].fat + "</td>";
+                resultHTML += "<td class=\"hidden-xs1\">" + data1[i].df + "</td>";
+                resultHTML += "</tr>";
+                $('#nutri-table-content1').append(resultHTML);
+                allFoods1 += resultHTML;
+            }
+        });
+        
+        // Get types
+        $.get('data2/type1.json', function(data1) {
+            for (var i = 0; i < data1.length; i++) {
+                var resultHTML = "";
+                var labelClass = "";
+                var randomNumber = Math.floor((Math.random() * 5) + 1);
+                if (randomNumber == 1) {
+                    labelClass = "default";
+                } else if (randomNumber == 2) {
+                    labelClass = "success";
+                } else if (randomNumber == 3) {
+                    labelClass = "info";
+                } else if (randomNumber == 4) {
+                    labelClass = "warning";
+                } else {
+                    labelClass = "danger";
+                }
+                resultHTML += "<span class=\"label label-" + labelClass + " cursor-pointer\" data-filter1=\"" + data1[i].type + "\" onClick=\"foodFilter1(this);\">" + data1[i].type + "</span> ";
+                $('#filter-button-group1').append(resultHTML);
+            }
+        });
+        
+        // All selected food to result table
+        $('#food-submit1').click(function() {
+            var weight = $('#food-weight1').val();
+            var indexInArray1 = $('#food-name1').data('id');
+            if (indexInArray1 === false) {
+                $('#food-input1').addClass('has-error');
+            } else if (weight == '' || weight <= 0 || weight == null) {
+                $('#weight-input1').addClass('has-error');
+                $('#food-weight1').focus();
+            } else {
+                $('#weight-input1').removeClass('has-error');
+                $('#food-input1').removeClass('has-error');
+                var resultFoodSelect1 = "";
+                allWeight1 += parseFloat(weight);
+            
+                var caloValue = parseFloat(dataArray1[indexInArray1].calo) / 100 * parseFloat(weight);
+                allCalo1 += caloValue;
+                var waterValue = parseFloat(dataArray1[indexInArray1].water) / 100 * parseFloat(weight);
+                allWater1 += waterValue;
+                var proteinValue = parseFloat(dataArray1[indexInArray1].protein) / 100 * parseFloat(weight);
+                allProtein1 += proteinValue;
+                var carbValue = parseFloat(dataArray1[indexInArray1].carb) / 100 * parseFloat(weight);
+                allCarb1 += carbValue;
+                var fatValue = parseFloat(dataArray1[indexInArray1].fat) / 100 * parseFloat(weight);
+                allFat1 += fatValue;
+                var dfValue = parseFloat(dataArray1[indexInArray1].df) / 100 * parseFloat(weight);
+                allDf1 += dfValue;
+
+                resultFoodSelect1 += "<tr>";
+                resultFoodSelect1 += "<th>" + indexFoodSelect1 + "</th>";
+                resultFoodSelect1 += "<td>" + dataArray1[indexInArray1].name + "</td>";
+                resultFoodSelect1 += "<td>" + parseFloat(weight).toFixed(1) + "</td>";
+                resultFoodSelect1 += "<td>" + caloValue.toFixed(1) + "</td>";
+                resultFoodSelect1 += "<td class=\"hidden-xs1\">" + waterValue.toFixed(1) + "</td>";
+                resultFoodSelect1 += "<td class=\"hidden-xs1\">" + proteinValue.toFixed(1) + "</td>";
+                resultFoodSelect1 += "<td class=\"hidden-xs1\">" + carbValue.toFixed(1) + "</td>";
+                resultFoodSelect1 += "<td class=\"hidden-xs1\">" + fatValue.toFixed(1) + "</td>";
+                resultFoodSelect1 += "<td class=\"hidden-xs1\">" + dfValue.toFixed(1) + "</td>";
+                resultFoodSelect1 += "</tr>";
+                indexFoodSelect1++;
+                $('#nutri-table-select').append(resultFoodSelect1);
+                $('#we-val').html(parseFloat(allWeight1).toFixed(1));
+                $('#ca-val').html("<span class=\"text-danger1\">" + parseFloat(allCalo1).toFixed(1) + "</span>");
+                $('#wa-val').html(parseFloat(allWater1).toFixed(1));
+                $('#pro-val').html(parseFloat(allProtein1).toFixed(1));
+                $('#car-val').html(parseFloat(allCarb1).toFixed(1));
+                $('#fa-val').html(parseFloat(allFat1).toFixed(1));
+                $('#df-val').html(parseFloat(allDf1).toFixed(1));   
+            }
+        });
+    });
+    
+    // Add selected food to textbox
+    function addToTextbox1(obj) {
+        $('#food-input1').removeClass('has-error');
+        $('#food-name1').val($(obj).html());
+        $('#food-name1').data('id', $(obj).data('id'));
+        $('html, body').animate({scrollTop: 0}, 400);
+    }
+    
+    // Filter foods list
+    function foodFilter1(obj) {
+        if ($(obj).data('filter1') == 'all') {
+            $('#nutri-table-content1').html(allFoods);
+        } else {
+            var type = $(obj).data('filter1');
+            var resultHTML = "";
+            var filterIndex1 = 1;
+            for (var i = 0; i < dataArray1.length; i++) {
+                if (dataArray1[i].type == type) {
+                    resultHTML += "<tr>";
+                    resultHTML += "<th>" + filterIndex1 + "</th>";
+                    resultHTML += "<td><span class=\"cursor-pointer btn-link\" data-id=" + i + " onClick=\"addToTextbox1(this);\">" + dataArray1[i].name + "</span></td>";
+                    resultHTML += "<td>" + dataArray1[i].calo + "</td>";
+                    resultHTML += "<td class=\"hidden-xs1\">" + dataArray1[i].water + "</td>";
+                    resultHTML += "<td class=\"hidden-xs1\">" + dataArray1[i].protein + "</td>";
+                    resultHTML += "<td class=\"hidden-xs1\">" + dataArray1[i].carb + "</td>";
+                    resultHTML += "<td class=\"hidden-xs1\">" + dataArray1[i].fat + "</td>";
+                    resultHTML += "<td class=\"hidden-xs1\">" + dataArray1[i].df + "</td>";
+                    resultHTML += "</tr>";
+                    filterIndex1++;
+                }
+            }
+            $('#nutri-table-content1').html(resultHTML);
+        }
+    }
+    
+    // Scroll to ID
+    $(function() {
+    $('a[href*="##"]:not([href="##"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                scrollTop: target.offset().top - 70
+                }, 700);
+                    return false;
+            }
+            }
+    });
+    });
+</script> -->
+</body>
+</html>

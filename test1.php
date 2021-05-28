@@ -1,4 +1,3 @@
-
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 		  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -246,10 +245,7 @@
      
      
         <li>       
-   <td>
-                            <a href="viewuser.php?id=<?php echo $user['id'] ?>" class="btn btn-sm btn-outline-info">View</a>
-                            <a class="btn btn-success" href="admin/createuser.php">Create new User</a>
-                        </td>
+  
  </li>
 
       </ul>
@@ -262,57 +258,6 @@
  <p>Web App for recommendation of calories and nutritional menu</p>
  
 </div>
-<br>
-
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-      <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item">
-        <img src="image/re1.jpg" alt="New York" width="1350" style="height: 480px !important;" float="center">
-        <div class="carousel-caption">
-          <h3>Roast Pumpkin Salad
-</h3>
-          <p>A light summer salad that's sure to tempt with the perfect mix of flavors.</p>
-        </div>      
-      </div>
-
-      <div class="item">
-        <img src="image/2.jpg" alt="Chicago" width="1350" style="height: 480px !important;" float="center">
-        <div class="carousel-caption">
-          <h3>
-7-Day Weight-Loss Healthy Meal Plan</h3>
-        
-        </div>      
-      </div>
-    
-      <div class="item active">
-        <img src="image/3.jpg" alt="Los Angeles" width="1350" style="height: 480px !important;" float="center">
-        <div class="carousel-caption">
-          <h3>Caculator Food Calories</h3>
-       
-        </div>      
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
-<br>
 
 <div class="aspNetHidden">
 
@@ -477,10 +422,309 @@
 				</div>
 				<br>
 				
-			
+				<br>
+				<h2>Recently Popular Recipes</h2>
 				
+<div style="width:100%">
 
-	
+	<table class="listtable" width="100%" cellpadding="0" cellspacing="0">
+		
+		<tbody><tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+						
+							<a href="/recipes/caramelized-brussels-sprouts/Default.aspx"><img border="0" src="https://m.ftscrt.com/static/recipe/2afd1619-01c7-4abc-9a52-2aeffcef6c62_sq.jpg" width="50"></a>
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/caramelized-brussels-sprouts/Default.aspx" class="prominent">
+						
+						Caramelized Brussels Sprouts </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/mrsjohnson0317">mrsjohnson0317</a>
+				</div>
+				<div class="topicsummary">
+					Brussel sprout haters will be sure to change their mind after enjoying this fantastic dish.
+				</div>
+				<div class="smallText right">Per serve - Energy: 131kcal | Carb: 8.98g | Prot: 2.55g | Fat: 10.35g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/four-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+						
+							<a href="/recipes/english-cottage-pie/Default.aspx"><img border="0" src="https://m.ftscrt.com/static/recipe/091d5db1-17c1-4111-a5c7-4ca4a2af6540_sq.jpg" width="50"></a>
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/english-cottage-pie/Default.aspx" class="prominent">
+						
+						English Cottage Pie </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/saswank80">saswank80</a>
+				</div>
+				<div class="topicsummary">
+					A delicious, very traditional mince pie (beef) topped with mashed potato.
+				</div>
+				<div class="smallText right">Per serve - Energy: 287kcal | Carb: 24.58g | Prot: 22.15g | Fat: 11.12g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/four-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+						
+							<a href="/recipes/chicken-marsala-ii/Default.aspx"><img border="0" src="https://m.ftscrt.com/static/recipe/18c318e2-2e08-4660-9363-efe6f4b8a793_sq.jpg" width="50"></a>
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/chicken-marsala-ii/Default.aspx" class="prominent">
+						
+						Chicken Marsala II </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/ImLuuvd">ImLuuvd</a>
+				</div>
+				<div class="topicsummary">
+					A really healthy creamy chicken marsala.
+				</div>
+				<div class="smallText right">Per serve - Energy: 221kcal | Carb: 6.47g | Prot: 28.15g | Fat: 5.33g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/four-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+												
+							<a href="/recipes/beef-stroganoff-ii/Default.aspx"><img src="https://a.ftscrt.com/static/images/box/recipe_default.jpg" width="51"></a>						
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/beef-stroganoff-ii/Default.aspx" class="prominent">
+						
+						Beef Stroganoff II </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/copalmers">copalmers</a>
+				</div>
+				<div class="topicsummary">
+					A better-than-boxed beef recipe that makes cooking from scratch easy.
+				</div>
+				<div class="smallText right">Per serve - Energy: 205kcal | Carb: 13.16g | Prot: 20.89g | Fat: 7.24g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/four-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+						
+							<a href="/recipes/all-seed-crackers/Default.aspx"><img border="0" src="https://m.ftscrt.com/static/recipe/88d2a086-d716-4a40-b380-69a6fb0d1677_sq.jpg" width="50"></a>
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/all-seed-crackers/Default.aspx" class="prominent">
+						
+						All Seed Crackers </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/luvinlife09">luvinlife09</a>
+				</div>
+				<div class="topicsummary">
+					These low carb crackers are amazing in that it's just seeds, water and spices.
+				</div>
+				<div class="smallText right">Per serve - Energy: 102kcal | Carb: 4.91g | Prot: 4.05g | Fat: 7.75g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/four-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+						
+							<a href="/recipes/chicken-cordon-bleu/Default.aspx"><img border="0" src="https://m.ftscrt.com/static/recipe/bf6c8957-c245-446c-a774-7cf991b9747d_sq.jpg" width="50"></a>
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/chicken-cordon-bleu/Default.aspx" class="prominent">
+						
+						Chicken Cordon Bleu </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/Reina+Estrella">Reina Estrella</a>
+				</div>
+				<div class="topicsummary">
+					A delightfully easy flavorful chicken dish that will surely become a favorite.
+				</div>
+				<div class="smallText right">Per serve - Energy: 601kcal | Carb: 4.39g | Prot: 81.23g | Fat: 26.67g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/four-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+						
+							<a href="/recipes/asian-slaw/Default.aspx"><img border="0" src="https://m.ftscrt.com/static/recipe/5687b0db-a14d-47e5-a2fe-f3f3dd954e87_sq.jpg" width="50"></a>
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/asian-slaw/Default.aspx" class="prominent">
+						
+						Asian Slaw </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/noellehb">noellehb</a>
+				</div>
+				<div class="topicsummary">
+					A spicy Asian coleslaw that's great for summer.
+				</div>
+				<div class="smallText right">Per serve - Energy: 64kcal | Carb: 7.37g | Prot: 1.22g | Fat: 3.80g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/four-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+												
+							<a href="/recipes/low-carb-broccoli-cheese-soup/Default.aspx"><img src="https://a.ftscrt.com/static/images/box/recipe_default.jpg" width="51"></a>						
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/low-carb-broccoli-cheese-soup/Default.aspx" class="prominent">
+						
+						Low Carb Broccoli Cheese Soup </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/Reina+Estrella">Reina Estrella</a>
+				</div>
+				<div class="topicsummary">
+					A great low carb broccoli cheese soup that will definitely become a favorite.
+				</div>
+				<div class="smallText right">Per serve - Energy: 287kcal | Carb: 3.74g | Prot: 12.44g | Fat: 25.02g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/four-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+						
+							<a href="/recipes/flax-bread/Default.aspx"><img border="0" src="https://m.ftscrt.com/static/recipe/e9b36e69-99b1-49d1-b3bb-254dbcfaf9dd_sq.jpg" width="50"></a>
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/flax-bread/Default.aspx" class="prominent">
+						
+						Flax Bread </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/Rusha">Rusha</a>
+				</div>
+				<div class="topicsummary">
+					This easy microwaved 'bread' turns out perfect every time.
+				</div>
+				<div class="smallText right">Per serve - Energy: 171kcal | Carb: 5.96g | Prot: 5.84g | Fat: 14.47g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/three-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		<tr class="listrow">
+			<td align="left" valign="top" width="50" class="borderBottom leftimages">
+				
+												
+							<a href="/recipes/taco-bake-/Default.aspx"><img src="https://a.ftscrt.com/static/images/box/recipe_default.jpg" width="51"></a>						
+						
+				
+			</td>
+			<td class="borderBottom recipeSummary">
+				<b><a href="/recipes/taco-bake-/Default.aspx" class="prominent">
+						
+						Taco Bake </a></b>
+				<br>
+				<div class="smallText left">
+					by member: <a href="/member/cjs_mama2000">cjs_mama2000</a>
+				</div>
+				<div class="topicsummary">
+					An absolutely delicious bake the whole family will love that's low in points.
+				</div>
+				<div class="smallText right">Per serve - Energy: 170kcal | Carb: 25.45g | Prot: 11.15g | Fat: 2.95g</div>
+				
+				<div style="float: left;" class="smallText">
+					<img alt="Average FatSecret member ranking" src="https://a.ftscrt.com/static/images/stars/three-star.gif">
+					&nbsp;&nbsp;
+				</div>
+				
+			</td>
+		</tr>
+		
+		
+	</tbody></table>
+
+</div>
+
+				<div align="right" class="smallText"><b><a href="/Default.aspx?pa=rs">view more recipes</a></b></div>
 			</div>
 		</td>
 		<td class="rightCell">
@@ -561,7 +805,6 @@
 	<div class="selectable" onclick="onFSBoxItemClick(this)">
 		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/meal/appetizer/Default.aspx" onclick="return false">Appetizer</a></div>
 	</div>
-	
 
 	
 	<div class="selectable" onclick="onFSBoxItemClick(this)">
@@ -578,12 +821,8 @@
 		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/meal/lunch/Default.aspx" onclick="return false">Lunch</a></div>
 	</div>
 	
-	
-	<div class="selectable" onclick="onFSBoxItemClick(this)">
-		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/meal/salad/Default.aspx" onclick="return false">Salad</a></div>
-	</div>
-	
-	
+
+
 	
 	
 	<div class="hr">&nbsp;</div>
@@ -618,10 +857,12 @@
 	</div>
 	
 	<div class="hr">&nbsp;</div>
-
 	<div class="topHeader">Diet &amp; Nutrition</div>
 	
-
+	<div class="selectable" onclick="onFSBoxItemClick(this)">
+		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/dairy-free/Default.aspx" onclick="return false">Dairy Free</a></div>
+	</div>
+	
 	<div class="selectable" onclick="onFSBoxItemClick(this)">
 		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/diabetic/Default.aspx" onclick="return false">Diabetic</a></div>
 	</div>
@@ -646,21 +887,33 @@
 		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/low-carb/Default.aspx" onclick="return false">Low Carb</a></div>
 	</div>
 	
-
+	<div class="selectable" onclick="onFSBoxItemClick(this)">
+		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/low-cholesterol/Default.aspx" onclick="return false">Low Cholesterol</a></div>
+	</div>
 	
 	<div class="selectable" onclick="onFSBoxItemClick(this)">
 		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/low-fat/Default.aspx" onclick="return false">Low Fat</a></div>
 	</div>
 	
+	<div class="selectable" onclick="onFSBoxItemClick(this)">
+		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/low-gi/Default.aspx" onclick="return false">Low GI</a></div>
+	</div>
 	
-
+	<div class="selectable" onclick="onFSBoxItemClick(this)">
+		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/low-sodium/Default.aspx" onclick="return false">Low Sodium</a></div>
+	</div>
 	
-
+	<div class="selectable" onclick="onFSBoxItemClick(this)">
+		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/low-sugar/Default.aspx" onclick="return false">Low Sugar</a></div>
+	</div>
 	
 	<div class="selectable" onclick="onFSBoxItemClick(this)">
 		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/sugar-free/Default.aspx" onclick="return false">Sugar Free</a></div>
 	</div>
-
+	
+	<div class="selectable" onclick="onFSBoxItemClick(this)">
+		<div style="padding-left:0px"><span class="recipes_bm">&nbsp;</span><a href="/recipes/collections/nutrition/weight-watchers-points/Default.aspx" onclick="return false">Weight Watchers Points</a></div>
+	</div>
 	
 </div>
 
@@ -681,202 +934,63 @@
 					</div>
 				</div>
 			</div>
-<div id="services" class="container-fluid text-center">
-  <h2>FUNCTION</h2>
+
+
+
+<?php
+require 'recipes/recipe.php';
+
+$users = getUsers();
+
+?>
+
+
+
+<div class="container" style="">
  
-  <br>
-  <div class="row slideanim slide">
-    <div class="col-sm-6">
-      <span class="glyphicon glyphicon-grain logo-small"></span>
-      <h4>FOOD</h4>
-      <p>Add food to caculator total Food calories consumed</p>
-    </div>
-    <div class="col-sm-6">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>FITNESS</h4>
-      <p>Add fitness to caculator total Exercise calories burned</p>
-    </div>
-   
-  </div>
-  <br><br>
-  <div class="row slideanim slide">
-      <div class="col-sm-6">
-      <span class="glyphicon glyphicon-cutlery logo-small"></span>
-      <h4>RECIPE</h4>
-      <p>Xem các hướng dẫn , công thức nấu ăn</p>
-    </div>
-    <div class="col-sm-6">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>SUGGESTION MENU</h4>
-      <p>Xem các đề nghị menu theo goal</p>
-    </div>
-  
 
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Suggestion Menu</h2><br>
-  <h4></h4>
-  <div class="row text-center slideanim slide">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="paris.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Paris</strong></p>
-        <p>Yes, we built Paris</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="newyork.jpg" alt="New York" width="400" height="300">
-        <p><strong>New York</strong></p>
-        <p>We built New York</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
-      </div>
-    </div>
-  </div><br>
-  
-
-
-
-  <h2>What our customers say</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-      <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-       <div class="item">
-     
-        
-
-    
-     
-   <div class="col-sm-4"> 
-
-<img src="image/4.png" alt="New York" width="350" height="350">
-    
-         <a href="" target="_blank" style="text-decoration: none !important;"><p style="text-align: center;  word-break: break-word;word-spacing: normal;word-wrap: break-word; color: #009580;font-size: 22px; padding-top: 12px; font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;">Vegetarian </p></a>
-  
-    </div>
-    
-         
-        
- 
-   <div class="col-sm-4"> 
-
-<img src="image/1.png" alt="New York" width="350" height="350">
-    
-         <a href="" target="_blank" style="text-decoration: none !important;"><p style="text-align: center;  word-break: break-word;word-spacing: normal;word-wrap: break-word; color: #009580;font-size: 22px; padding-top: 12px; font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;">Healthy Eating </p></a>
-  
-    </div>
-    
-      
-
-   <div class="col-sm-4"> 
-
-<img src="image/5.png" alt="New York" width="350" height="350">
-    
-         <a href="" target="_blank" style="text-decoration: none !important;"><p style="text-align: center;  word-break: break-word;word-spacing: normal;word-wrap: break-word; color: #009580;font-size: 22px; padding-top: 12px; font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;">Eat salty </p></a>
-  
-    </div>
-    
-
-        
-
-      </div>
-
-      <div class="item">
+    <table class="listtable" width="100%" cellpadding="0" cellspacing="0" float="center" text-align="center">
        
-    
-          
-        <img class="col-sm-4" src="calo-calc/image/Capture1.PNG" alt="New York" width="100" height="100">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
-        </div>  
-     
- 
-   
-    
-      <img class="col-sm-4" src="calo-calc/image/Capture1.PNG" alt="New York" width="100" height="100">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
-        </div>  
+        <tbody>
+        <?php foreach ($users as $user): ?>
+            <tr tr class="listrow">
+                <td align="left" valign="top" width="50" class="borderBottom leftimages">
+                    <?php if (isset($user['extension'])): ?>
+                        <img style="width: 50px; height: 50px;" src="<?php echo "recipes/images/${user['id']}.${user['extension']}" ?>" alt="">
+                    <?php endif; ?>
+                </td>
+<br>    <hr>    
+                   
+                <td class="borderBottom recipeSummary">
+             
+                      <b><a href="/recipes/caramelized-brussels-sprouts/Default.aspx" class="prominent">    <?php echo $user['name'] ?>
+            
+            </a></b>      
+<a href="viewrecipe.php?id=<?php echo $user['id'] ?>" class="btn btn-sm btn-outline-info">View</a>
+  </td>
+            
 
+            </tr>
+        <?php endforeach;; ?>
+        </tbody>
+    </table>
 
-     
-      <img class="col-sm-4" src="calo-calc/image/Capture1.PNG" alt="New York" width="100" height="100">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
-        </div>  
-     
-    
-      </div>
-    
-      <div class="item active">
-            <img class="col-sm-4" src="calo-calc/image/Capture2.PNG" alt="New York" width="100" height="100">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
-        </div>  
-     
- 
-   
-    
-      <img class="col-sm-4" src="calo-calc/image/Capture2.PNG" alt="New York" width="100" height="100">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
-        </div>  
-
-
-     
-      <img class="col-sm-4" src="calo-calc/image/Capture2.PNG" alt="New York" width="100" height="100">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
-        </div>  
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
 </div>
 
 
-<br>
-<br>
 
 
-<hr>
-<br>
+
+
+
+
+
+
+
+
+
+
+
 
 			<div class="footerPanel" align="right">
 				

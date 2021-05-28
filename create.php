@@ -1,5 +1,5 @@
 <?php
-include 'partials/header.php';
+include 'partials1/header.php';
 require __DIR__ . '/users/users.php';
 
 
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         uploadImage($_FILES['picture'], $user);
 
-        header("Location: tablefood.php");
+        header("Location: index.php");
     }
 }
 

@@ -1,0 +1,2592 @@
+[
+{
+"type": "Cháo, phở, miến, mì ăn liền",
+"name": "Bún ăn liền",
+"calo": "348.0",
+"water": "22",
+"protein": "6.4",
+"fat": "9.0",
+"carb": "60.0",
+"df": "0.5"
+},
+{
+"type": "Cháo, phở, miến, mì ăn liền",
+"name": "Cháo ăn liền",
+"calo": "346.0",
+"water": "17",
+"protein": "6.8",
+"fat": "4.4",
+"carb": "70.0",
+"df": "0.5"
+},
+{
+"type": "Cháo, phở, miến, mì ăn liền",
+"name": "Mì ăn liền",
+"calo": "435.0",
+"water": "14",
+"protein": "9.7",
+"fat": "19.5",
+"carb": "55.1",
+"df": "0.5"
+},
+{
+"type": "Cháo, phở, miến, mì ăn liền",
+"name": "Miến ăn liền",
+"calo": "367.0",
+"water": "18",
+"protein": "3.8",
+"fat": "9.6",
+"carb": "66.4",
+"df": "0.5"
+},
+{
+"type": "Cháo, phở, miến, mì ăn liền",
+"name": "Phở ăn liền",
+"calo": "342.0",
+"water": "18",
+"protein": "6.8",
+"fat": "4.2",
+"carb": "69.3",
+"df": "0.5"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Bột sắn dây",
+"calo": "340.0",
+"water": "14.2",
+"protein": "0.7",
+"fat": "0.0",
+"carb": "84.3",
+"df": "0.8"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Củ dong",
+"calo": "119.0",
+"water": "66.4",
+"protein": "1.4",
+"fat": "0.0",
+"carb": "28.4",
+"df": "2.4"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Củ sắn",
+"calo": "152.0",
+"water": "59.5",
+"protein": "1.1",
+"fat": "0.2",
+"carb": "36.4",
+"df": "1.5"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Củ từ",
+"calo": "92.0",
+"water": "74.9",
+"protein": "1.5",
+"fat": "0.0",
+"carb": "21.5",
+"df": "1.2"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Khoai lang",
+"calo": "119.0",
+"water": "67.7",
+"protein": "0.8",
+"fat": "0.2",
+"carb": "28.5",
+"df": "1.3"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Khoai lang nghệ",
+"calo": "116.0",
+"water": "69.8",
+"protein": "1.2",
+"fat": "0.3",
+"carb": "27.1",
+"df": "0.8"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Khoai môn",
+"calo": "109.0",
+"water": "70.7",
+"protein": "1.5",
+"fat": "0.2",
+"carb": "25.2",
+"df": "1.2"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Khoai tây",
+"calo": "92.0",
+"water": "74.5",
+"protein": "2.0",
+"fat": "0.0",
+"carb": "21.0",
+"df": "1.0"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Khoai tây chiên",
+"calo": "525.0",
+"water": "6.6",
+"protein": "2.2",
+"fat": "35.4",
+"carb": "49.3",
+"df": "6.3"
+},
+{
+"type": "Củ giàu tinh bột",
+"name": "Miến dong",
+"calo": "332.0",
+"water": "14.3",
+"protein": "0.6",
+"fat": "0.1",
+"carb": "82.2",
+"df": "1.5"
+},
+{
+"type": "Dầu, mỡ, bơ",
+"name": "Bơ",
+"calo": "756.0",
+"water": "15.4",
+"protein": "0.5",
+"fat": "83.5",
+"carb": "0.5",
+"df": "0.0"
+},
+{
+"type": "Dầu, mỡ, bơ",
+"name": "Dầu thực vật",
+"calo": "897.0",
+"water": "0.3",
+"protein": "0.0",
+"fat": "99.7",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Dầu, mỡ, bơ",
+"name": "Mỡ lợn nước",
+"calo": "896.0",
+"water": "0.4",
+"protein": "0.0",
+"fat": "99.6",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Cá thu hộp",
+"calo": "207.0",
+"water": "62.9",
+"protein": "24.8",
+"fat": "12.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Cá trích hộp",
+"calo": "233.0",
+"water": "59.2",
+"protein": "22.3",
+"fat": "14.4",
+"carb": "3.5",
+"df": "0.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Đậu phộng chiên",
+"calo": "680.0",
+"water": "4.5",
+"protein": "25.7",
+"fat": "59.5",
+"carb": "10.3",
+"df": "0.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Mứt đu đủ",
+"calo": "178.0",
+"water": "53.4",
+"protein": "0.4",
+"fat": "0.0",
+"carb": "44.1",
+"df": "2.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Mứt thơm",
+"calo": "208.0",
+"water": "47.6",
+"protein": "0.5",
+"fat": "0.0",
+"carb": "51.5",
+"df": "0.4"
+},
+{
+"type": "Đồ hộp",
+"name": "Nhãn hộp",
+"calo": "62.0",
+"water": "83.2",
+"protein": "0.5",
+"fat": "0.0",
+"carb": "15.0",
+"df": "1.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Nước thơm",
+"calo": "39.0",
+"water": "89.8",
+"protein": "0.3",
+"fat": "0.0",
+"carb": "9.4",
+"df": "0.4"
+},
+{
+"type": "Đồ hộp",
+"name": "Thịt bò hộp",
+"calo": "251.0",
+"water": "62.6",
+"protein": "16.4",
+"fat": "20.6",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Thịt gà hộp",
+"calo": "273.0",
+"water": "59.8",
+"protein": "17.0",
+"fat": "22.8",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Thịt heo hộp",
+"calo": "344.0",
+"water": "50.4",
+"protein": "17.3",
+"fat": "29.3",
+"carb": "2.7",
+"df": "0.0"
+},
+{
+"type": "Đồ hộp",
+"name": "Thơm hộp",
+"calo": "56.0",
+"water": "85.8",
+"protein": "0.3",
+"fat": "0.0",
+"carb": "13.7",
+"df": "0.2"
+},
+{
+"type": "Đồ hộp",
+"name": "Vải hộp",
+"calo": "60.0",
+"water": "83.6",
+"protein": "0.4",
+"fat": "0.0",
+"carb": "14.7",
+"df": "1.1"
+},
+{
+"type": "Đồ ngọt",
+"name": "Bánh in chay",
+"calo": "376.0",
+"water": "6.1",
+"protein": "3.2",
+"fat": "0.3",
+"carb": "90.2",
+"df": "0.2"
+},
+{
+"type": "Đồ ngọt",
+"name": "Bánh men",
+"calo": "369.0",
+"water": "12.1",
+"protein": "9.6",
+"fat": "3.7",
+"carb": "74.2",
+"df": "0.2"
+},
+{
+"type": "Đồ ngọt",
+"name": "Bánh mì khô",
+"calo": "346.0",
+"water": "14.0",
+"protein": "12.3",
+"fat": "1.3",
+"carb": "71.3",
+"df": "0.8"
+},
+{
+"type": "Đồ ngọt",
+"name": "Bánh sôcôla",
+"calo": "449.0",
+"water": "9.5",
+"protein": "3.9",
+"fat": "17.6",
+"carb": "68.8",
+"df": "0.0"
+},
+{
+"type": "Đồ ngọt",
+"name": "Bánh thỏi sôcôla",
+"calo": "543.0",
+"water": "1.5",
+"protein": "4.9",
+"fat": "30.4",
+"carb": "62.5",
+"df": "0.0"
+},
+{
+"type": "Đồ ngọt",
+"name": "Đường cát trắng",
+"calo": "397.0",
+"water": "0.7",
+"protein": "0.0",
+"fat": "0.0",
+"carb": "99.3",
+"df": "0.0"
+},
+{
+"type": "Đồ ngọt",
+"name": "Kẹo cà phê",
+"calo": "378.0",
+"water": "7.2",
+"protein": "0.0",
+"fat": "1.3",
+"carb": "91.5",
+"df": "0.0"
+},
+{
+"type": "Đồ ngọt",
+"name": "Kẹo đậu phộng",
+"calo": "449.0",
+"water": "6.2",
+"protein": "10.3",
+"fat": "16.5",
+"carb": "64.8",
+"df": "2.2"
+},
+{
+"type": "Đồ ngọt",
+"name": "Kẹo dừa mềm",
+"calo": "415.0",
+"water": "9.1",
+"protein": "0.6",
+"fat": "12.2",
+"carb": "75.6",
+"df": "2.5"
+},
+{
+"type": "Đồ ngọt",
+"name": "Kẹo ngậm bạc hà",
+"calo": "268.0",
+"water": "32.8",
+"protein": "5.2",
+"fat": "0.0",
+"carb": "61.9",
+"df": "0.0"
+},
+{
+"type": "Đồ ngọt",
+"name": "Kẹo sôcôla",
+"calo": "388.0",
+"water": "7.5",
+"protein": "1.6",
+"fat": "4.6",
+"carb": "85.1",
+"df": "1.2"
+},
+{
+"type": "Đồ ngọt",
+"name": "Kẹo sữa",
+"calo": "390.0",
+"water": "11.8",
+"protein": "2.9",
+"fat": "7.3",
+"carb": "78.0",
+"df": "0.0"
+},
+{
+"type": "Đồ ngọt",
+"name": "Mật ong",
+"calo": "327.0",
+"water": "18.3",
+"protein": "0.4",
+"fat": "0.0",
+"carb": "81.3",
+"df": "0.0"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Cari bột",
+"calo": "283.0",
+"water": "28.3",
+"protein": "8.2",
+"fat": "7.3",
+"carb": "46.0",
+"df": "8.9"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Gừng tươi",
+"calo": "25.0",
+"water": "90.1",
+"protein": "0.4",
+"fat": "0.0",
+"carb": "5.8",
+"df": "3.3"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Mắm tôm đặc",
+"calo": "73.0",
+"water": "83.7",
+"protein": "14.8",
+"fat": "1.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Muối",
+"calo": "0.0",
+"water": "99.8",
+"protein": "0.0",
+"fat": "0.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Nghệ khô",
+"calo": "360.0",
+"water": "16.1",
+"protein": "6.3",
+"fat": "5.1",
+"carb": "72.1",
+"df": "0.0"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Nghệ tươi",
+"calo": "22.0",
+"water": "88.4",
+"protein": "0.3",
+"fat": "0.0",
+"carb": "5.2",
+"df": "6.1"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Nước mắm",
+"calo": "28.0",
+"water": "87.3",
+"protein": "7.1",
+"fat": "0.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Tôm chua",
+"calo": "68.0",
+"water": "84.6",
+"protein": "8.7",
+"fat": "1.2",
+"carb": "5.5",
+"df": "0.0"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Tương ớt",
+"calo": "37.0",
+"water": "90.4",
+"protein": "0.5",
+"fat": "0.5",
+"carb": "7.6",
+"df": "0.9"
+},
+{
+"type": "Gia vị, nước chấm",
+"name": "Xì dầu",
+"calo": "28.0",
+"water": "92.8",
+"protein": "7.0",
+"fat": "0.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Cùi dừa già",
+"calo": "368.0",
+"water": "46.8",
+"protein": "4.8",
+"fat": "36.0",
+"carb": "6.2",
+"df": "4.2"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Cùi dừa non",
+"calo": "40.0",
+"water": "88.6",
+"protein": "3.5",
+"fat": "1.7",
+"carb": "2.6",
+"df": "3.5"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Đậu đen (hạt)",
+"calo": "325.0",
+"water": "13.6",
+"protein": "24.2",
+"fat": "1.7",
+"carb": "53.3",
+"df": "4.0"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Đậu Hà lan (hạt)",
+"calo": "342.0",
+"water": "9.8",
+"protein": "22.2",
+"fat": "1.4",
+"carb": "60.1",
+"df": "6.0"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Đậu phộng",
+"calo": "573.0",
+"water": "6.6",
+"protein": "27.5",
+"fat": "44.5",
+"carb": "15.5",
+"df": "2.5"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Đậu phụ",
+"calo": "95.0",
+"water": "81.9",
+"protein": "10.9",
+"fat": "5.4",
+"carb": "0.7",
+"df": "0.4"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Đậu tương (đậu nành)",
+"calo": "400.0",
+"water": "13.1",
+"protein": "34.0",
+"fat": "18.4",
+"carb": "24.6",
+"df": "4.5"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Đậu xanh",
+"calo": "328.0",
+"water": "12.4",
+"protein": "23.4",
+"fat": "2.4",
+"carb": "53.1",
+"df": "4.7"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Hạt điều",
+"calo": "605.0",
+"water": "5.5",
+"protein": "18.4",
+"fat": "46.3",
+"carb": "28.7",
+"df": "0.6"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Mè",
+"calo": "568.0",
+"water": "5.4",
+"protein": "20.1",
+"fat": "46.4",
+"carb": "17.6",
+"df": "3.5"
+},
+{
+"type": "Hạt giàu đạm và chất béo",
+"name": "Sữa đậu nành",
+"calo": "28.0",
+"water": "94.3",
+"protein": "3.1",
+"fat": "1.6",
+"carb": "0.4",
+"df": "0.1"
+},
+{
+"type": "Ngũ cốc",
+"name": "Bánh bao",
+"calo": "219.0",
+"water": "45.3",
+"protein": "6.1",
+"fat": "0.5",
+"carb": "47.5",
+"df": "0.5"
+},
+{
+"type": "Ngũ cốc",
+"name": "Bánh đúc",
+"calo": "52.0",
+"water": "87.3",
+"protein": "0.9",
+"fat": "0.3",
+"carb": "11.3",
+"df": "0.1"
+},
+{
+"type": "Ngũ cốc",
+"name": "Bánh mì",
+"calo": "249.0",
+"water": "37.0",
+"protein": "7.9",
+"fat": "0.8",
+"carb": "52.6",
+"df": "0.2"
+},
+{
+"type": "Ngũ cốc",
+"name": "Bánh phở",
+"calo": "141.0",
+"water": "64.2",
+"protein": "3.2",
+"fat": "0.0",
+"carb": "32.1",
+"df": "0.0"
+},
+{
+"type": "Ngũ cốc",
+"name": "Bánh tráng mỏng",
+"calo": "333.0",
+"water": "16.3",
+"protein": "4.0",
+"fat": "0.2",
+"carb": "78.9",
+"df": "0.5"
+},
+{
+"type": "Ngũ cốc",
+"name": "Bắp tươi",
+"calo": "196.0",
+"water": "52.6",
+"protein": "4.1",
+"fat": "2.3",
+"carb": "39.6",
+"df": "1.2"
+},
+{
+"type": "Ngũ cốc",
+"name": "Bún",
+"calo": "110.0",
+"water": "72.0",
+"protein": "1.7",
+"fat": "0.0",
+"carb": "25.7",
+"df": "0.5"
+},
+{
+"type": "Ngũ cốc",
+"name": "Gạo nếp cái",
+"calo": "346.0",
+"water": "13.6",
+"protein": "8.2",
+"fat": "1.5",
+"carb": "74.9",
+"df": "0.6"
+},
+{
+"type": "Ngũ cốc",
+"name": "Gạo tẻ",
+"calo": "344.0",
+"water": "13.5",
+"protein": "7.8",
+"fat": "1.0",
+"carb": "76.1",
+"df": "0.4"
+},
+{
+"type": "Ngũ cốc",
+"name": "Ngô tươi",
+"calo": "196.0",
+"water": "51.8",
+"protein": "4.1",
+"fat": "2.3",
+"carb": "39.6",
+"df": "1.2"
+},
+{
+"type": "Ngũ cốc",
+"name": "Ngô vàng hạt vàng",
+"calo": "354.0",
+"water": "13.8",
+"protein": "8.6",
+"fat": "4.7",
+"carb": "69.4",
+"df": "2.0"
+},
+{
+"type": "Nước giải khát",
+"name": "Bia",
+"calo": "43.0",
+"water": "89.4",
+"protein": "1.6",
+"fat": "0.0",
+"carb": "9.0",
+"df": "0.0"
+},
+{
+"type": "Nước giải khát",
+"name": "CocaCola",
+"calo": "42.0",
+"water": "89.6",
+"protein": "0.0",
+"fat": "0.0",
+"carb": "10.4",
+"df": "0.0"
+},
+{
+"type": "Nước giải khát",
+"name": "Rượu nếp",
+"calo": "166.0",
+"water": "58.1",
+"protein": "4.0",
+"fat": "0.0",
+"carb": "37.7",
+"df": "0.2"
+},
+{
+"type": "Quả chín",
+"name": "Bưởi",
+"calo": "30.0",
+"water": "91.0",
+"protein": "0.2",
+"fat": "0.0",
+"carb": "7.3",
+"df": "0.7"
+},
+{
+"type": "Quả chín",
+"name": "Cam",
+"calo": "37.0",
+"water": "88.7",
+"protein": "0.9",
+"fat": "0.0",
+"carb": "8.4",
+"df": "1.4"
+},
+{
+"type": "Quả chín",
+"name": "Chanh",
+"calo": "23.0",
+"water": "92.4",
+"protein": "0.9",
+"fat": "0.0",
+"carb": "4.8",
+"df": "1.3"
+},
+{
+"type": "Quả chín",
+"name": "Chôm chôm",
+"calo": "72.0",
+"water": "80.3",
+"protein": "1.5",
+"fat": "0.0",
+"carb": "16.4",
+"df": "1.3"
+},
+{
+"type": "Quả chín",
+"name": "Chuối tây",
+"calo": "66.0",
+"water": "83.2",
+"protein": "0.9",
+"fat": "0.3",
+"carb": "15.0",
+"df": "0.0"
+},
+{
+"type": "Quả chín",
+"name": "Chuối tiêu",
+"calo": "97.0",
+"water": "74.4",
+"protein": "1.5",
+"fat": "0.2",
+"carb": "22.2",
+"df": "0.8"
+},
+{
+"type": "Quả chín",
+"name": "Đu đủ chín",
+"calo": "35.0",
+"water": "90.0",
+"protein": "1.0",
+"fat": "0.0",
+"carb": "7.7",
+"df": "0.6"
+},
+{
+"type": "Quả chín",
+"name": "Dưa hấu",
+"calo": "16.0",
+"water": "95.5",
+"protein": "1.2",
+"fat": "0.2",
+"carb": "2.3",
+"df": "0.5"
+},
+{
+"type": "Quả chín",
+"name": "Dứa ta",
+"calo": "29.0",
+"water": "91.4",
+"protein": "0.8",
+"fat": "0.0",
+"carb": "6.5",
+"df": "0.8"
+},
+{
+"type": "Quả chín",
+"name": "Hồng xiêm",
+"calo": "48.0",
+"water": "85.6",
+"protein": "0.5",
+"fat": "0.7",
+"carb": "10.0",
+"df": "2.5"
+},
+{
+"type": "Quả chín",
+"name": "Lê",
+"calo": "45.0",
+"water": "87.8",
+"protein": "0.7",
+"fat": "0.2",
+"carb": "10.2",
+"df": "0.6"
+},
+{
+"type": "Quả chín",
+"name": "Mận",
+"calo": "20.0",
+"water": "94.0",
+"protein": "0.6",
+"fat": "0.2",
+"carb": "3.9",
+"df": "0.7"
+},
+{
+"type": "Quả chín",
+"name": "Mít dai",
+"calo": "48.0",
+"water": "85.3",
+"protein": "0.6",
+"fat": "0.0",
+"carb": "11.4",
+"df": "1.2"
+},
+{
+"type": "Quả chín",
+"name": "Mít mật",
+"calo": "62.0",
+"water": "82.1",
+"protein": "1.5",
+"fat": "0.0",
+"carb": "14.0",
+"df": "1.2"
+},
+{
+"type": "Quả chín",
+"name": "Mơ",
+"calo": "46.0",
+"water": "87.0",
+"protein": "0.9",
+"fat": "0.0",
+"carb": "10.5",
+"df": "0.8"
+},
+{
+"type": "Quả chín",
+"name": "Na",
+"calo": "64.0",
+"water": "82.4",
+"protein": "1.6",
+"fat": "0.0",
+"carb": "14.5",
+"df": "0.8"
+},
+{
+"type": "Quả chín",
+"name": "Nhãn",
+"calo": "48.0",
+"water": "86.2",
+"protein": "0.9",
+"fat": "0.0",
+"carb": "11.0",
+"df": "1.0"
+},
+{
+"type": "Quả chín",
+"name": "Nho ta (nho chua)",
+"calo": "14.0",
+"water": "93.5",
+"protein": "0.4",
+"fat": "0.0",
+"carb": "3.1",
+"df": "2.4"
+},
+{
+"type": "Quả chín",
+"name": "Quýt",
+"calo": "38.0",
+"water": "89.4",
+"protein": "0.8",
+"fat": "0.0",
+"carb": "8.6",
+"df": "0.6"
+},
+{
+"type": "Quả chín",
+"name": "Táo ta",
+"calo": "37.0",
+"water": "89.4",
+"protein": "0.8",
+"fat": "0.0",
+"carb": "8.5",
+"df": "0.7"
+},
+{
+"type": "Quả chín",
+"name": "Táo tây",
+"calo": "47.0",
+"water": "87.1",
+"protein": "0.5",
+"fat": "0.0",
+"carb": "11.3",
+"df": "0.6"
+},
+{
+"type": "Quả chín",
+"name": "Vải",
+"calo": "43.0",
+"water": "87.7",
+"protein": "0.7",
+"fat": "0.0",
+"carb": "10.0",
+"df": "1.1"
+},
+{
+"type": "Quả chín",
+"name": "Vú sữa",
+"calo": "42.0",
+"water": "86.4",
+"protein": "1.0",
+"fat": "0.0",
+"carb": "9.4",
+"df": "2.3"
+},
+{
+"type": "Quả chín",
+"name": "Xoài chín",
+"calo": "69.0",
+"water": "82.5",
+"protein": "0.6",
+"fat": "0.3",
+"carb": "15.9",
+"df": "0.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Bầu",
+"calo": "14.0",
+"water": "95.1",
+"protein": "0.6",
+"fat": "0.0",
+"carb": "2.9",
+"df": "1.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Bí đao (bí xanh)",
+"calo": "12.0",
+"water": "95.4",
+"protein": "0.6",
+"fat": "0.0",
+"carb": "2.4",
+"df": "1.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Bí ngô",
+"calo": "24.0",
+"water": "92.6",
+"protein": "0.3",
+"fat": "0.0",
+"carb": "5.6",
+"df": "0.7"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cà chua",
+"calo": "19.0",
+"water": "93.9",
+"protein": "0.6",
+"fat": "0.0",
+"carb": "4.2",
+"df": "0.8"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cà pháo",
+"calo": "20.0",
+"water": "92.5",
+"protein": "1.5",
+"fat": "0.0",
+"carb": "3.6",
+"df": "1.6"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cà rốt",
+"calo": "38.0",
+"water": "88.4",
+"protein": "1.5",
+"fat": "0.0",
+"carb": "8.0",
+"df": "1.2"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cà tím",
+"calo": "22.0",
+"water": "92.4",
+"protein": "1.0",
+"fat": "0.0",
+"carb": "4.5",
+"df": "1.5"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cải bắp",
+"calo": "29.0",
+"water": "89.9",
+"protein": "1.8",
+"fat": "0.0",
+"carb": "5.4",
+"df": "1.6"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cải cúc",
+"calo": "14.0",
+"water": "93.7",
+"protein": "1.6",
+"fat": "0.0",
+"carb": "1.9",
+"df": "2.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cải thìa (cải trắng)",
+"calo": "16.0",
+"water": "93.1",
+"protein": "1.4",
+"fat": "0.0",
+"carb": "2.6",
+"df": "1.8"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cải xanh",
+"calo": "15.0",
+"water": "93.6",
+"protein": "1.7",
+"fat": "0.0",
+"carb": "2.1",
+"df": "1.8"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Cần ta",
+"calo": "10.0",
+"water": "94.9",
+"protein": "1.0",
+"fat": "0.0",
+"carb": "1.5",
+"df": "1.5"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Củ cải trắng",
+"calo": "21.0",
+"water": "92.0",
+"protein": "1.5",
+"fat": "0.0",
+"carb": "3.7",
+"df": "1.5"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Đậu cô ve",
+"calo": "73.0",
+"water": "81.1",
+"protein": "5.0",
+"fat": "1.0",
+"carb": "11.0",
+"df": "1.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Dọc mùng",
+"calo": "5.0",
+"water": "96.0",
+"protein": "0.4",
+"fat": "0.0",
+"carb": "0.8",
+"df": "2.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Dưa cải bắp",
+"calo": "18.0",
+"water": "90.8",
+"protein": "1.2",
+"fat": "0.0",
+"carb": "3.3",
+"df": "1.6"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Dưa cải bẹ",
+"calo": "17.0",
+"water": "90.0",
+"protein": "1.8",
+"fat": "0.0",
+"carb": "2.4",
+"df": "2.1"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Dưa chuột",
+"calo": "15.0",
+"water": "94.9",
+"protein": "0.8",
+"fat": "0.0",
+"carb": "3.0",
+"df": "0.7"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Gấc",
+"calo": "122.0",
+"water": "66.9",
+"protein": "20.0",
+"fat": "0.0",
+"carb": "10.5",
+"df": "1.8"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Giá đậu xanh",
+"calo": "43.0",
+"water": "86.4",
+"protein": "5.5",
+"fat": "0.0",
+"carb": "5.3",
+"df": "2.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Hành lá (hành hoa)",
+"calo": "22.0",
+"water": "92.3",
+"protein": "1.3",
+"fat": "0.0",
+"carb": "4.3",
+"df": "0.9"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Măng chua",
+"calo": "11.0",
+"water": "92.7",
+"protein": "1.4",
+"fat": "0.0",
+"carb": "1.4",
+"df": "4.1"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Mộc nhĩ",
+"calo": "304.0",
+"water": "10.8",
+"protein": "10.6",
+"fat": "0.2",
+"carb": "65.0",
+"df": "7.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Mướp",
+"calo": "16.0",
+"water": "95.0",
+"protein": "0.9",
+"fat": "0.0",
+"carb": "3.0",
+"df": "0.5"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Nấm hương khô",
+"calo": "274.0",
+"water": "12.7",
+"protein": "35.0",
+"fat": "4.5",
+"carb": "23.5",
+"df": "17.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Ớt vàng to",
+"calo": "28.0",
+"water": "90.5",
+"protein": "1.3",
+"fat": "0.0",
+"carb": "5.7",
+"df": "1.4"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Ran kinh giới",
+"calo": "22.0",
+"water": "89.9",
+"protein": "2.7",
+"fat": "0.0",
+"carb": "2.8",
+"df": "3.6"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau bí",
+"calo": "18.0",
+"water": "93.1",
+"protein": "2.7",
+"fat": "0.0",
+"carb": "1.7",
+"df": "1.7"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau đay",
+"calo": "24.0",
+"water": "91.1",
+"protein": "2.8",
+"fat": "0.0",
+"carb": "3.2",
+"df": "1.5"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau khoai lang",
+"calo": "22.0",
+"water": "91.8",
+"protein": "2.6",
+"fat": "0.0",
+"carb": "2.8",
+"df": "1.4"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau mồng tơi",
+"calo": "14.0",
+"water": "92.9",
+"protein": "2.0",
+"fat": "0.0",
+"carb": "1.4",
+"df": "2.5"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau mùi",
+"calo": "13.0",
+"water": "92.9",
+"protein": "2.6",
+"fat": "0.0",
+"carb": "0.7",
+"df": "1.8"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau muống",
+"calo": "23.0",
+"water": "91.8",
+"protein": "3.2",
+"fat": "0.0",
+"carb": "2.5",
+"df": "1.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau ngót",
+"calo": "35.0",
+"water": "86.0",
+"protein": "5.3",
+"fat": "0.0",
+"carb": "3.4",
+"df": "2.5"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau răm",
+"calo": "30.0",
+"water": "86.3",
+"protein": "4.7",
+"fat": "0.0",
+"carb": "2.8",
+"df": "3.8"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau rút",
+"calo": "28.0",
+"water": "90.2",
+"protein": "5.1",
+"fat": "0.0",
+"carb": "1.8",
+"df": "1.9"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Rau thơm",
+"calo": "18.0",
+"water": "91.4",
+"protein": "2.0",
+"fat": "0.0",
+"carb": "2.4",
+"df": "3.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Su hào",
+"calo": "36.0",
+"water": "87.7",
+"protein": "2.8",
+"fat": "0.0",
+"carb": "6.3",
+"df": "1.7"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Su su",
+"calo": "18.0",
+"water": "93.8",
+"protein": "0.8",
+"fat": "0.0",
+"carb": "3.7",
+"df": "1.0"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Súp lơ",
+"calo": "30.0",
+"water": "90.6",
+"protein": "2.5",
+"fat": "0.0",
+"carb": "4.9",
+"df": "0.9"
+},
+{
+"type": "Rau và củ quả dùng làm rau",
+"name": "Tía tô",
+"calo": "25.0",
+"water": "88.9",
+"protein": "2.9",
+"fat": "0.0",
+"carb": "3.4",
+"df": "3.6"
+},
+{
+"type": "Sữa",
+"name": "Sữa bò tươi",
+"calo": "74.0",
+"water": "85.6",
+"protein": "3.9",
+"fat": "4.4",
+"carb": "4.8",
+"df": "0.0"
+},
+{
+"type": "Sữa",
+"name": "Sữa bột tách béo",
+"calo": "357.0",
+"water": "1.6",
+"protein": "35.0",
+"fat": "1.0",
+"carb": "52.0",
+"df": "0.0"
+},
+{
+"type": "Sữa",
+"name": "Sữa bột toàn phần",
+"calo": "494.0",
+"water": "1.8",
+"protein": "27.0",
+"fat": "26.0",
+"carb": "38.0",
+"df": "0.0"
+},
+{
+"type": "Sữa",
+"name": "Sữa chua",
+"calo": "61.0",
+"water": "88.5",
+"protein": "3.3",
+"fat": "3.7",
+"carb": "3.6",
+"df": "0.0"
+},
+{
+"type": "Sữa",
+"name": "Sữa đặc có đường",
+"calo": "336.0",
+"water": "24.9",
+"protein": "8.1",
+"fat": "8.8",
+"carb": "56.0",
+"df": "0.0"
+},
+{
+"type": "Sữa",
+"name": "Sữa mẹ",
+"calo": "61.0",
+"water": "88.4",
+"protein": "1.5",
+"fat": "3.0",
+"carb": "7.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Ba tê",
+"calo": "326.0",
+"water": "47.4",
+"protein": "10.8",
+"fat": "24.6",
+"carb": "15.4",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Bao tử bò",
+"calo": "97.0",
+"water": "80.7",
+"protein": "14.8",
+"fat": "4.2",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Bao tử heo",
+"calo": "85.0",
+"water": "82.3",
+"protein": "14.6",
+"fat": "2.9",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Cật bò",
+"calo": "67.0",
+"water": "85.0",
+"protein": "12.5",
+"fat": "1.8",
+"carb": "0.3",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Cật heo",
+"calo": "81.0",
+"water": "82.6",
+"protein": "13.0",
+"fat": "3.1",
+"carb": "0.3",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Chả bò",
+"calo": "357.0",
+"water": "52.7",
+"protein": "13.8",
+"fat": "33.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Chà bông",
+"calo": "396.0",
+"water": "19.3",
+"protein": "53.0",
+"fat": "20.4",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Chả lợn",
+"calo": "517.0",
+"water": "32.5",
+"protein": "10.8",
+"fat": "50.4",
+"carb": "5.1",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Chả lụa",
+"calo": "136.0",
+"water": "73.0",
+"protein": "21.5",
+"fat": "5.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Chả quế",
+"calo": "416.0",
+"water": "44.7",
+"protein": "16.2",
+"fat": "39.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Chân giò lợn (bỏ xương)",
+"calo": "230.0",
+"water": "64.6",
+"protein": "15.7",
+"fat": "18.6",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Da heo",
+"calo": "118.0",
+"water": "74.0",
+"protein": "23.3",
+"fat": "2.7",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Dăm bông heo",
+"calo": "318.0",
+"water": "48.5",
+"protein": "23.0",
+"fat": "25.0",
+"carb": "0.3",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Đầu heo",
+"calo": "335.0",
+"water": "55.3",
+"protein": "13.4",
+"fat": "31.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Đuôi bò",
+"calo": "137.0",
+"water": "73.6",
+"protein": "19.7",
+"fat": "6.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Đuôi heo",
+"calo": "467.0",
+"water": "42.1",
+"protein": "10.8",
+"fat": "47.1",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Ếch",
+"calo": "90.0",
+"water": "74.8",
+"protein": "20.0",
+"fat": "1.1",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Gan bò",
+"calo": "110.0",
+"water": "75.8",
+"protein": "17.4",
+"fat": "3.1",
+"carb": "3.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Gân chân bò",
+"calo": "124.0",
+"water": "69.5",
+"protein": "30.2",
+"fat": "0.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Gan gà",
+"calo": "111.0",
+"water": "73.9",
+"protein": "18.2",
+"fat": "3.4",
+"carb": "2.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Gan heo",
+"calo": "116.0",
+"water": "72.8",
+"protein": "18.8",
+"fat": "3.6",
+"carb": "2.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Gan vịt",
+"calo": "122.0",
+"water": "75.2",
+"protein": "17.1",
+"fat": "4.7",
+"carb": "2.8",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Giò bò",
+"calo": "357.0",
+"water": "48.7",
+"protein": "13.8",
+"fat": "33.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Giò lụa",
+"calo": "136.0",
+"water": "72.0",
+"protein": "21.5",
+"fat": "5.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Giò thủ",
+"calo": "553.0",
+"water": "29.7",
+"protein": "16.0",
+"fat": "54.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Huyết bò",
+"calo": "75.0",
+"water": "81.3",
+"protein": "18.0",
+"fat": "0.2",
+"carb": "0.4",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Huyết heo luộc",
+"calo": "44.0",
+"water": "89.2",
+"protein": "10.7",
+"fat": "0.1",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Huyết heo sống",
+"calo": "25.0",
+"water": "94.0",
+"protein": "5.7",
+"fat": "0.1",
+"carb": "0.2",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Lạp xưởng",
+"calo": "585.0",
+"water": "18.6",
+"protein": "20.8",
+"fat": "55.0",
+"carb": "1.7",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Lòng heo (ruột già)",
+"calo": "167.0",
+"water": "77.1",
+"protein": "6.9",
+"fat": "15.1",
+"carb": "0.8",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Lưỡi bò",
+"calo": "164.0",
+"water": "73.8",
+"protein": "13.6",
+"fat": "12.1",
+"carb": "0.2",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Lưỡi heo",
+"calo": "178.0",
+"water": "71.5",
+"protein": "14.2",
+"fat": "12.8",
+"carb": "1.4",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Mề gà",
+"calo": "99.0",
+"water": "76.6",
+"protein": "21.3",
+"fat": "1.3",
+"carb": "0.6",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Nem chua",
+"calo": "137.0",
+"water": "70.2",
+"protein": "21.7",
+"fat": "3.7",
+"carb": "4.3",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Nhộng",
+"calo": "111.0",
+"water": "79.6",
+"protein": "13.0",
+"fat": "6.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Óc bò",
+"calo": "124.0",
+"water": "80.7",
+"protein": "9.0",
+"fat": "9.5",
+"carb": "0.5",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Óc heo",
+"calo": "123.0",
+"water": "80.8",
+"protein": "9.0",
+"fat": "9.5",
+"carb": "0.4",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Patê",
+"calo": "326.0",
+"water": "49.1",
+"protein": "10.8",
+"fat": "24.6",
+"carb": "15.4",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Phèo heo",
+"calo": "44.0",
+"water": "90.6",
+"protein": "7.2",
+"fat": "1.3",
+"carb": "0.8",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Sườn heo bỏ xương",
+"calo": "187.0",
+"water": "68.0",
+"protein": "17.9",
+"fat": "12.8",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Tai heo",
+"calo": "121.0",
+"water": "74.9",
+"protein": "21.0",
+"fat": "4.1",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt bê nạc",
+"calo": "85.0",
+"water": "79.3",
+"protein": "20.0",
+"fat": "0.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt bò",
+"calo": "118.0",
+"water": "74.4",
+"protein": "21.0",
+"fat": "3.8",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt bò khô",
+"calo": "239.0",
+"water": "41.7",
+"protein": "51.0",
+"fat": "1.6",
+"carb": "5.2",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt dê nạc",
+"calo": "122.0",
+"water": "74.9",
+"protein": "20.7",
+"fat": "4.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt gà ta",
+"calo": "199.0",
+"water": "65.4",
+"protein": "20.3",
+"fat": "13.1",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt gà tây",
+"calo": "218.0",
+"water": "63.2",
+"protein": "20.1",
+"fat": "15.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt heo ba chỉ",
+"calo": "260.0",
+"water": "60.7",
+"protein": "16.5",
+"fat": "21.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt heo mỡ",
+"calo": "394.0",
+"water": "48.0",
+"protein": "14.5",
+"fat": "37.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt heo nạc",
+"calo": "139.0",
+"water": "73.8",
+"protein": "19.0",
+"fat": "7.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt lơn nạc",
+"calo": "139.0",
+"water": "72.8",
+"protein": "19.0",
+"fat": "7.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt mông chó",
+"calo": "338.0",
+"water": "52.9",
+"protein": "16.0",
+"fat": "30.4",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt ngỗng",
+"calo": "409.0",
+"water": "45.9",
+"protein": "14.0",
+"fat": "39.2",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt thỏ",
+"calo": "158.0",
+"water": "70.2",
+"protein": "21.5",
+"fat": "8.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt vai chó",
+"calo": "230.0",
+"water": "64.3",
+"protein": "18.0",
+"fat": "17.6",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Thịt vịt",
+"calo": "267.0",
+"water": "59.3",
+"protein": "17.8",
+"fat": "21.8",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Tim bò",
+"calo": "89.0",
+"water": "81.2",
+"protein": "15.0",
+"fat": "3.0",
+"carb": "0.6",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Tim gà",
+"calo": "114.0",
+"water": "78.3",
+"protein": "16.0",
+"fat": "5.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Tim heo",
+"calo": "89.0",
+"water": "81.3",
+"protein": "15.1",
+"fat": "3.2",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thịt",
+"name": "Xúc xích",
+"calo": "535.0",
+"water": "25.3",
+"protein": "27.2",
+"fat": "47.4",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Ba khía muối",
+"calo": "83.0",
+"water": "77.8",
+"protein": "14.2",
+"fat": "2.9",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Bánh phồng tôm",
+"calo": "676.0",
+"water": "4.9",
+"protein": "1.6",
+"fat": "59.2",
+"carb": "34.1",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá bống",
+"calo": "70.0",
+"water": "83.2",
+"protein": "15.8",
+"fat": "0.8",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá chép",
+"calo": "96.0",
+"water": "78.4",
+"protein": "16.0",
+"fat": "3.6",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá đối",
+"calo": "108.0",
+"water": "77.0",
+"protein": "19.5",
+"fat": "3.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá giếc",
+"calo": "87.0",
+"water": "78.7",
+"protein": "17.7",
+"fat": "1.8",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá hồi",
+"calo": "136.0",
+"water": "72.5",
+"protein": "22.0",
+"fat": "5.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá khô",
+"calo": "208.0",
+"water": "52.6",
+"protein": "43.3",
+"fat": "3.9",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá lóc",
+"calo": "97.0",
+"water": "78.8",
+"protein": "18.2",
+"fat": "2.7",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá mè",
+"calo": "144.0",
+"water": "75.1",
+"protein": "15.4",
+"fat": "9.1",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá mỡ",
+"calo": "151.0",
+"water": "72.5",
+"protein": "16.8",
+"fat": "9.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá mòi",
+"calo": "124.0",
+"water": "76.2",
+"protein": "17.5",
+"fat": "6.0",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá nạc",
+"calo": "80.0",
+"water": "79.8",
+"protein": "17.5",
+"fat": "1.1",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá ngừ",
+"calo": "87.0",
+"water": "77.9",
+"protein": "21.0",
+"fat": "0.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá nục",
+"calo": "111.0",
+"water": "76.3",
+"protein": "20.2",
+"fat": "3.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá phèn",
+"calo": "104.0",
+"water": "79.5",
+"protein": "15.9",
+"fat": "4.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá quả (cá lóc)",
+"calo": "97.0",
+"water": "77.7",
+"protein": "18.2",
+"fat": "2.7",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá rô đồng",
+"calo": "126.0",
+"water": "74.0",
+"protein": "19.1",
+"fat": "5.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá rô phi",
+"calo": "100.0",
+"water": "76.6",
+"protein": "19.7",
+"fat": "2.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá thu",
+"calo": "166.0",
+"water": "69.5",
+"protein": "18.2",
+"fat": "10.3",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá trắm cỏ",
+"calo": "91.0",
+"water": "79.2",
+"protein": "17.0",
+"fat": "2.6",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá trê",
+"calo": "173.0",
+"water": "71.4",
+"protein": "16.5",
+"fat": "11.9",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cá trôi",
+"calo": "127.0",
+"water": "74.1",
+"protein": "18.8",
+"fat": "5.7",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Chà bông cá lóc",
+"calo": "312.0",
+"water": "26.5",
+"protein": "65.7",
+"fat": "4.1",
+"carb": "3.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cua biển",
+"calo": "103.0",
+"water": "73.9",
+"protein": "17.5",
+"fat": "0.6",
+"carb": "7.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Cua đồng",
+"calo": "87.0",
+"water": "68.9",
+"protein": "12.3",
+"fat": "3.3",
+"carb": "2.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Ghẹ",
+"calo": "54.0",
+"water": "87.2",
+"protein": "11.9",
+"fat": "0.7",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Hải sâm",
+"calo": "90.0",
+"water": "77.9",
+"protein": "21.5",
+"fat": "0.3",
+"carb": "0.2",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Hến",
+"calo": "45.0",
+"water": "88.6",
+"protein": "4.5",
+"fat": "0.7",
+"carb": "5.1",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Lươn",
+"calo": "94.0",
+"water": "77.2",
+"protein": "20.0",
+"fat": "1.5",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Mực khô",
+"calo": "291.0",
+"water": "32.6",
+"protein": "60.1",
+"fat": "4.5",
+"carb": "2.5",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Mực tươi",
+"calo": "73.0",
+"water": "81.0",
+"protein": "16.3",
+"fat": "0.9",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Ốc bươu",
+"calo": "84.0",
+"water": "78.5",
+"protein": "11.1",
+"fat": "0.7",
+"carb": "8.3",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Ốc nhồi",
+"calo": "84.0",
+"water": "76.0",
+"protein": "11.9",
+"fat": "0.7",
+"carb": "7.6",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Ốc vặn",
+"calo": "72.0",
+"water": "77.6",
+"protein": "12.2",
+"fat": "0.7",
+"carb": "4.3",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Sò",
+"calo": "51.0",
+"water": "87.1",
+"protein": "8.8",
+"fat": "0.4",
+"carb": "3.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Tép gạo",
+"calo": "58.0",
+"water": "83.4",
+"protein": "11.7",
+"fat": "1.2",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Tép khô",
+"calo": "269.0",
+"water": "20.4",
+"protein": "59.8",
+"fat": "3.0",
+"carb": "0.7",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Tôm biển",
+"calo": "82.0",
+"water": "80.3",
+"protein": "17.6",
+"fat": "0.9",
+"carb": "0.9",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Tôm đồng",
+"calo": "90.0",
+"water": "74.7",
+"protein": "18.4",
+"fat": "1.8",
+"carb": "0.0",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Tôm khô",
+"calo": "347.0",
+"water": "11.4",
+"protein": "75.6",
+"fat": "3.8",
+"carb": "2.5",
+"df": "0.0"
+},
+{
+"type": "Thủy hải sản",
+"name": "Trai",
+"calo": "38.0",
+"water": "89.1",
+"protein": "4.6",
+"fat": "1.1",
+"carb": "2.5",
+"df": "0.0"
+},
+{
+"type": "Trứng",
+"name": "Lòng đỏ trứng gà",
+"calo": "327.0",
+"water": "51.3",
+"protein": "13.6",
+"fat": "29.8",
+"carb": "1.0",
+"df": "0.0"
+},
+{
+"type": "Trứng",
+"name": "Lòng đỏ trứng vịt",
+"calo": "368.0",
+"water": "44.3",
+"protein": "14.5",
+"fat": "32.3",
+"carb": "4.8",
+"df": "0.0"
+},
+{
+"type": "Trứng",
+"name": "Lòng trắng trứng gà",
+"calo": "46.0",
+"water": "88.2",
+"protein": "10.3",
+"fat": "0.1",
+"carb": "1.0",
+"df": "0.0"
+},
+{
+"type": "Trứng",
+"name": "Lòng trắng trứng vịt",
+"calo": "50.0",
+"water": "87.6",
+"protein": "11.5",
+"fat": "0.1",
+"carb": "0.8",
+"df": "0.0"
+},
+{
+"type": "Trứng",
+"name": "Trứng gà",
+"calo": "166.0",
+"water": "70.8",
+"protein": "14.8",
+"fat": "11.6",
+"carb": "0.5",
+"df": "0.0"
+},
+{
+"type": "Trứng",
+"name": "Trứng vịt",
+"calo": "184.0",
+"water": "68.7",
+"protein": "13.0",
+"fat": "14.2",
+"carb": "1.0",
+"df": "0.0"
+},
+{
+"type": "Trứng",
+"name": "Trứng vịt lộn",
+"calo": "182.0",
+"water": "66.1",
+"protein": "13.6",
+"fat": "12.4",
+"carb": "4.0",
+"df": "0.0"
+},
+{
+"type": "Mỳ",
+"name": "Mỳ Hàn Quốc",
+"calo": "182.0",
+"water": "66.1",
+"protein": "13.6",
+"fat": "12.4",
+"carb": "4.0",
+"df": "0.0"
+}
+]
