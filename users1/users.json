@@ -1,0 +1,32 @@
+[
+    {
+        "name": "dat",
+        "username": "phungu",
+        "age": "23",
+        "height": "160",
+        "weight": "65",
+        "gender": "Male",
+        "tdee": "Sedentary people",
+        "id": 1577476
+    },
+    {
+        "name": "dat",
+        "username": "phungu",
+        "age": "23",
+        "height": "160",
+        "weight": "65",
+        "gender": "Male",
+        "tdee": "Sedentary people",
+        "id": 1730800
+    },
+    {
+        "name": "admin1",
+        "username": "phungu1",
+        "age": "23",
+        "height": "32",
+        "weight": "65",
+        "gender": "Male",
+        "tdee": "Sedentary people",
+        "id": 1657935
+    }
+]

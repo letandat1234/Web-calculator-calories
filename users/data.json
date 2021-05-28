@@ -1,0 +1,68 @@
+[
+    {
+        "type": "Ch\u00e1o, ph\u1edf, mi\u1ebfn, m\u00ec \u0103n li\u1ec1n",
+        "name": "B\u00fan \u0103n li\u1ec1n ",
+        "calo": "348.0",
+        "water": "22",
+        "protein": "6.4",
+        "fat": "9.0",
+        "carb": "60.0",
+        "df": "0.5",
+        "id": 1324485
+    },
+    {
+        "type": "Ch\u00e1o, ph\u1edf, mi\u1ebfn, m\u00ec \u0103n li\u1ec1n",
+        "name": "Ch\u00e1o \u0103n li\u1ec1n",
+        "calo": "346.0",
+        "water": "17",
+        "protein": "6.8",
+        "fat": "4.4",
+        "carb": "70.0",
+        "df": "0.5",
+        "id": 1610239
+    },
+    {
+        "type": "Ch\u00e1o, ph\u1edf, mi\u1ebfn, m\u00ec \u0103n li\u1ec1n",
+        "name": "M\u00ec \u0103n li\u1ec1n",
+        "calo": "435.0",
+        "water": "14",
+        "protein": "9.7",
+        "fat": "19.5",
+        "carb": "55.1",
+        "df": "0.5",
+        "id": 1273133
+    },
+    {
+        "type": "Ch\u00e1o, ph\u1edf, mi\u1ebfn, m\u00ec \u0103n li\u1ec1n",
+        "name": "Mi\u1ebfn \u0103n li\u1ec1n",
+        "calo": "367.0",
+        "water": "18",
+        "protein": "3.8",
+        "fat": "9.6",
+        "carb": "66.4",
+        "df": "0.5",
+        "id": 1804925
+    },
+    {
+        "type": "Ch\u00e1o, ph\u1edf, mi\u1ebfn, m\u00ec \u0103n li\u1ec1n",
+        "name": "Ph\u1edf \u0103n li\u1ec1n ",
+        "calo": "342.0",
+        "water": "18",
+        "protein": "6.8",
+        "fat": "4.2",
+        "carb": "69.3",
+        "df": "0.5",
+        "id": 1323710
+    },
+    {
+        "type": "\u0111\u01b01",
+        "name": "d\u01b01",
+        "calo": "268",
+        "water": "3424",
+        "protein": "42",
+        "fat": "42",
+        "carb": "55.1",
+        "df": "0.8",
+        "id": 1881716
+    }
+]
